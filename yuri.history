@@ -20,10 +20,12 @@ webpack.config.js to bundled.js and watch: true
 npm run dev
 
 #15 -- CSS with webpack  -- using PostCSS
-npm install css-loader style-loader --save-dev
+    npm install css-loader style-loader --save-dev
     in App.js import styles.css
     in webpack.config.js add module --> css-loader --> added to bundle.js
 
 #17 -- CSS file architechture
     postcss import normalize 
-    postition large-hero__text-content on top of image
+    postition large-hero__text-content on top of image and center
+
+#18 -- what is BEM?
