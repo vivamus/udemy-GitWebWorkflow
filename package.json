@@ -1,0 +1,24 @@
+{
+  "name": "udemy-GitWebWorkflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vivamus/udemy-GitWebWorkflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivamus/udemy-GitWebWorkflow/issues"
+  },
+  "homepage": "https://github.com/vivamus/udemy-GitWebWorkflow#readme",
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "normalize.css": "^8.0.1"
+  }
+}
