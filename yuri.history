@@ -23,3 +23,5 @@ npm run dev
 npm install css-loader style-loader --save-dev
     in App.js import styles.css
     in webpack.config.js add module --> css-loader --> added to bundle.js
+
+#17 -- CSS file architechture
