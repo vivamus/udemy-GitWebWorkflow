@@ -7,9 +7,14 @@ git commit -m 'a b'
 git mv old new
 git push origin master
 
+nodejs.org npmjs.org
 npm init -y
 npm install lodash
 npm install normalize.css
 rm -r node_modules/
 npm install
   grep node_modules .gitignore
+
+npm install webpack webpack-cli --save-dev
+webpack.config.js to bundled.js
+npm run dev
