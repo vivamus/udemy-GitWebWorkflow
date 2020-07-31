@@ -18,3 +18,8 @@ npm install
 npm install webpack webpack-cli --save-dev
 webpack.config.js to bundled.js and watch: true
 npm run dev
+
+#15 -- CSS with webpack  -- using PostCSS
+npm install css-loader style-loader --save-dev
+    in App.js import styles.css
+    in webpack.config.js add module --> css-loader --> added to bundle.js
