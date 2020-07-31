@@ -1,0 +1,4 @@
+ git clone https://github.com/LearnWebCode/travel-site-files.git
+ git remote -v
+ git remote set-url origin https://github.com/vivamus/udemy-GitWebWorkflow.git
+
