@@ -25,3 +25,5 @@ npm install css-loader style-loader --save-dev
     in webpack.config.js add module --> css-loader --> added to bundle.js
 
 #17 -- CSS file architechture
+    postcss import normalize 
+    postition large-hero__text-content on top of image
