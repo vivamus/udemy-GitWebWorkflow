@@ -40,4 +40,6 @@ npm run dev
 
 #19 complete two blocks -- large-hero and btm
   large-hero -- margin: 0
-  rem -- root of the page em (i.e. of 16 pixels)
+    rem -- root of the page em (i.e. of 16 pixels)
+    position shadow splitline etc
+  btn
