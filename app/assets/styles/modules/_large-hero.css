@@ -3,10 +3,14 @@
 }
 
 .large-hero__text-content {
+    left: 0;
+    width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 0;
-    width: 100%;
     text-align: center;
+}
+
+.large-hero h1 {
+    font-weight: 300;
 }

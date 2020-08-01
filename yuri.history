@@ -6,6 +6,9 @@ git add -A
 git commit -m 'a b'
 git mv old new
 git push origin master
+git commit -a     #skip staging
+git config --global alias.last 'log -1 HEAD'
+git config --global alias.ca 'commit -a'
 
 nodejs.org npmjs.org
 npm init -y
@@ -26,6 +29,6 @@ npm run dev
 
 #17 -- CSS file architechture
     postcss import normalize 
-    postition large-hero__text-content on top of image and center
+    position large-hero__text-content on top of image and center
 
 #18 -- what is BEM?
