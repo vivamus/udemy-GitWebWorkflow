@@ -2,6 +2,7 @@ git clone https://github.com/LearnWebCode/travel-site-files.git
 git remote -v
 git remote set-url origin https://github.com/vivamus/udemy-GitWebWorkflow.git
 git status
+
 git add -A
 git commit -m 'a b'
 git mv old new
@@ -32,7 +33,7 @@ npm run dev
     position large-hero__text-content on top of image and center
 
 #18 -- what is BEM?
-  from '.large-hero h1' to <h1 class=.large-hero__title>
+  from `.large-hero h1` to `<h1 class=.large-hero__title>`
   B.E.M. == Block __Element (only within a block) --Modifier (change default)
     direct with classes (no cascade)
     single responsibility blocks, no descendant selectors, flat architechture
