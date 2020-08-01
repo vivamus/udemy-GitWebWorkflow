@@ -45,3 +45,7 @@ npm run dev
   btn btn--orange modifier  text-decoration:none
 
   #20 Webpack dev server -- reload browser by filesave, accross the network
+    npm install webpack-dev-server --save-dev
+    webpack.config.js devServer hot port:3000, no need for watch:true anymore
+    package.json -- webpack-dev-server ++ App.js accept
+    localhost:3000
