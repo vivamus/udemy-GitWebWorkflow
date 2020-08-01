@@ -42,4 +42,6 @@ npm run dev
   large-hero -- margin: 0
     rem -- root of the page em (i.e. of 16 pixels)
     position shadow splitline etc
-  btn
+  btn btn--orange modifier  text-decoration:none
+
+  #20 Webpack dev server -- reload browser by filesave, accross the network
