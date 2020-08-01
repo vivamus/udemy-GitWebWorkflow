@@ -37,3 +37,7 @@ npm run dev
     direct with classes (no cascade)
     single responsibility blocks, no descendant selectors, flat architechture
     PostCSS '&' compiles to outer class name!
+
+#19 complete two blocks -- large-hero and btm
+  large-hero -- margin: 0
+  rem -- root of the page em (i.e. of 16 pixels)
