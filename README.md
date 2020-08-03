@@ -58,8 +58,8 @@ npm run dev
     now we may delete buindled.js, it exists in RAM as localhostL300/bundled.js
 
 21. **"Mobile-first"**
-  progressively enhance design for larger screen, no unnesecessary data  
-  decreese horizontal widht of the browser -- font too large  
+  progressively enhance design for larger screen, no unneeded data  
+  decrease horizontal widht of the browser -- font too large  
   start with css __title font-size 1.2 @media min-width 530px 4.8 (your clarity jumps small if width decreases)  
   npm install postcss-mixins --save-dev  webpack require
   base/_mixin.css @mixin atSmall
@@ -72,4 +72,10 @@ npm run dev
   ii) filesize `<img srcset Small.jpg 570w, medium.jpg 1200w, large.jpg 1920w>`  
     browser itself decides which resolution Width to pick  
       
+22. **Testing Responsive Images**  
+  -i.jpg version for "info"-images 1920 X 654
+  testing e.g. hi-dpi -- Chrome Developer Tool -- right-click Inspect 
+    open devices icon (upper leftish) emulation -- set Responsive (3 dots menu chose DPR)
 
+23. **Creating Reusable Blocks**  
+  
