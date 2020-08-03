@@ -32,7 +32,7 @@ npm run dev
     postcss import normalize   
     position large-hero__text-content on top of image and center  
 
-18. -- what is BEM?  
+18. **what is BEM?**  
   from `.large-hero h1` to `<h1 class=.large-hero__title>`  
   B.E.M. == Block `__Element` (only within a block) `--Modifier` (change default)  
     direct with classes (no cascade)  
@@ -45,8 +45,16 @@ npm run dev
     position shadow splitline etc  
   btn btn--orange modifier  text-decoration:none  
 
-20. **Webpack dev server** -- reload browser by filesave, accross the network  
+20. **webpack dev server** -- reload browser by filesave, accross the network  
   npm install webpack-dev-server --save-dev  
   webpack.config.js devServer hot port:3000, no need for watch:true anymore  
   package.json -- webpack-dev-server ++ App.js accept  
   localhost:3000  
+  does not reload page -- if you select element and change CSS, selection stays (keeps current state)
+  was watching CSS, but not index.html, inserted `before:` in devServer of webpack -- full page reload though
+  **across WiFi network** devServer `host: '0.0.0.0' -- need local (not public()) IP address
+  Windows: ipconfig  IPv4 Address -- 192.168.1.111 (MAc Syestem Preference > Network)
+    on smartphone -- `192.168.1.111:3000` -- did not work for me? maybe because VPN?
+    now we may delete buindled.js, it exists in RAM as localhostL300/bundled.js
+
+  21. ** "Mobile-first"
