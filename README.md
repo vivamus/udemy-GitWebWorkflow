@@ -57,4 +57,8 @@ npm run dev
     on smartphone -- `192.168.1.111:3000` -- did not work for me? maybe because VPN?
     now we may delete buindled.js, it exists in RAM as localhostL300/bundled.js
 
-  21. ** "Mobile-first"
+  21. **"Mobile-first"**
+    progressively enhance design for larger screen, no unnsecessary data  
+    decreese horizontal widht of the browser -- font too large  
+    start with css __title font-size 1.2 @media min-width 530px 4.8 (your clarity jumps small if width decreases)  
+
