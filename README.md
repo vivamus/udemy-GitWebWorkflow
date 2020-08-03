@@ -57,17 +57,19 @@ npm run dev
     on smartphone -- `192.168.1.111:3000` -- did not work for me? maybe because VPN?
     now we may delete buindled.js, it exists in RAM as localhostL300/bundled.js
 
-  21. **"Mobile-first"**
-    progressively enhance design for larger screen, no unnesecessary data  
-    decreese horizontal widht of the browser -- font too large  
-    start with css __title font-size 1.2 @media min-width 530px 4.8 (your clarity jumps small if width decreases)  
-    npm install postcss-mixins --save-dev  webpack require
-    base/_mixin.css @mixin atSmall
-    default is smallest then Small,Medium,Large
+21. **"Mobile-first"**
+  progressively enhance design for larger screen, no unnesecessary data  
+  decreese horizontal widht of the browser -- font too large  
+  start with css __title font-size 1.2 @media min-width 530px 4.8 (your clarity jumps small if width decreases)  
+  npm install postcss-mixins --save-dev  webpack require
+  base/_mixin.css @mixin atSmall
+  default is smallest then Small,Medium,Large
 
-  22. **Responsive Images**
-    2 reasons for different images: crop; filesize
-    ```<picture> <source srcset="medium.jpg" media="(min-width: 760px)">
-          <img src="small.jpg"> </picture>```
+22. **Responsive Images**
+  2 reasons for different images: crop; filesize  
+  i) crop: ```<picture> <source srcset="medium.jpg" media="(min-width: 760px)">  
+        <img src="small.jpg"> </picture>```  
+  ii) filesize `<img srcset Small.jpg 570w, medium.jpg 1200w, large.jpg 1920w>`  
+    browser itself decide which resolution Width to pick  
       
 
