@@ -61,4 +61,10 @@ npm run dev
     progressively enhance design for larger screen, no unnsecessary data  
     decreese horizontal widht of the browser -- font too large  
     start with css __title font-size 1.2 @media min-width 530px 4.8 (your clarity jumps small if width decreases)  
+    npm install postcss-mixins --save-dev  webpack require
+    base/_mixin.css @mixin atSmall
+    default is smallest then Small,Medium,Large
+
+    22. **Responsive Images**
+      
 
