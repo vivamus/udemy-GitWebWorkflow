@@ -65,11 +65,11 @@ npm run dev
   base/_mixin.css @mixin atSmall
   default is smallest then Small,Medium,Large
 
-22. **Responsive Images**
+22. **Responsive Images**  
   2 reasons for different images: crop; filesize  
   i) crop: ```<picture> <source srcset="medium.jpg" media="(min-width: 760px)">  
         <img src="small.jpg"> </picture>```  
   ii) filesize `<img srcset Small.jpg 570w, medium.jpg 1200w, large.jpg 1920w>`  
-    browser itself decide which resolution Width to pick  
+    browser itself decides which resolution Width to pick  
       
 
