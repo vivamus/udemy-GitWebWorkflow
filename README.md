@@ -83,7 +83,9 @@ webpack.config.js to bundled.js and watch: true
   with iPhoneX emulation
    * _wrapper.css -- padding
    * __title increase fontsize
-  image -- we add border-bottom to large-hero
-  whiteline appeared `<img ... class="large-hero__image>` -- change display from `inline-block` to `block`
+  image -- we add border-bottom to large-hero  
+  * whiteline appeared `<img ... class="large-hero__image>` -- change display from `inline-block` to `block`
+  * default image is inline-block
+  design pattern for spacing -- page-section
 
   
