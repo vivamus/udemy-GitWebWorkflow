@@ -88,4 +88,6 @@ webpack.config.js to bundled.js and watch: true
   * default image is inline-block
   design pattern for spacing -- page-section
 
+25. **Headline Block**
+
   
