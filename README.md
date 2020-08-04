@@ -74,14 +74,16 @@ webpack.config.js to bundled.js and watch: true
       
 23. **Testing Responsive Images**  
   -i.jpg version for "info"-images 1920 X 654  
-  testing e.g. hi-dpi -- Chrome Developer Tool -- right-click Inspect  
+  testing e.g. hi-dpi -- Chrome Developer Tool -- right-click Inspect
     * open devices icon (upper leftish) emulation 
     * with Responsive set device pixel ratio 2 (3 dots menu chose DPR)  -- for different jpg resolution
     * change Responsive to e.g. iPhoneX
 
 24. **Creating Reusable Blocks**  
   with iPhoneX emulation
-   _wrapper.css -- padding
-   __title increase fontsize
+   * _wrapper.css -- padding
+   * __title increase fontsize
+  image -- we add border-bottom to large-hero
+  whiteline appeared `<img ... class="large-hero__image>` -- change display from `inline-block` to `block`
 
   
