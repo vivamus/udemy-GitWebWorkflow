@@ -21,7 +21,7 @@ npm install
 
 npm install webpack webpack-cli --save-dev  
 webpack.config.js to bundled.js and watch: true  
-npm run dev  
+**npm run dev**  
 
 15. **CSS with webpack -- using PostCSS**    
     npm install css-loader style-loader --save-dev  
@@ -72,10 +72,16 @@ npm run dev
   ii) filesize `<img srcset Small.jpg 570w, medium.jpg 1200w, large.jpg 1920w>`  
     browser itself decides which resolution Width to pick  
       
-22. **Testing Responsive Images**  
-  -i.jpg version for "info"-images 1920 X 654
-  testing e.g. hi-dpi -- Chrome Developer Tool -- right-click Inspect 
-    open devices icon (upper leftish) emulation -- set Responsive (3 dots menu chose DPR)
+23. **Testing Responsive Images**  
+  -i.jpg version for "info"-images 1920 X 654  
+  testing e.g. hi-dpi -- Chrome Developer Tool -- right-click Inspect  
+    * open devices icon (upper leftish) emulation 
+    * with Responsive set device pixel ratio 2 (3 dots menu chose DPR)  -- for different jpg resolution
+    * change Responsive to e.g. iPhoneX
 
-23. **Creating Reusable Blocks**  
+24. **Creating Reusable Blocks**  
+  with iPhoneX emulation
+   _wrapper.css -- padding
+   __title increase fontsize
+
   
