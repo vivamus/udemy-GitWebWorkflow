@@ -3,13 +3,14 @@
     &::after {
         content: "";
         clear: both;
+        display: table;
     }
 
     background-color: yellow;
 
     &__4 {
         float: left;
-        width: 33.33%;
+        width: 23.33%;
     }
 
     &__8 {
@@ -18,6 +19,6 @@
     }
     
 } 
-.clear-me {
-    clear: both;
-}
+/*.clear-me {
+   clear: both;
+}*/
