@@ -1,13 +1,7 @@
 .row {
 
-    &::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-
-    background-color: yellow;
-
+    @mixin clearfix;
+    
     &__4 {
         float: left;
         width: 23.33%;
