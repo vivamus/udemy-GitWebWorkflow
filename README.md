@@ -82,11 +82,12 @@ webpack.config.js to bundled.js and watch: true
 24. **Creating Reusable Blocks**  
   with iPhoneX emulation
    * _wrapper.css -- padding
-   * __title increase fontsize
+   * __title increase fontsize  
   image -- we add border-bottom to large-hero  
-  * whiteline appeared `<img ... class="large-hero__image>` -- change display from `inline-block` to `block`
-  * default image is inline-block
-  design pattern for spacing -- page-section
+  * whiteline appeared `<img ... class="large-hero__image>` -- change display from `inline-block` to `block`  
+  * default image is inline-block  
+  design pattern for spacing -- page-section  
+  wrapper for padding center  
 
 25. **Headline Block**
 
