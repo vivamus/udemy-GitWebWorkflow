@@ -105,6 +105,7 @@ webpack.config.js to bundled.js and watch: true
   better &::after content "", clear both, display table  
   `&--gutters > div` for children's padding --exceeds the total 100%  
   `box-sizing: border-box` to _global.css!  
+  last column protruding 65px: neg margin, overflow hidden
 
 
 ### *Section 9: blah*  
