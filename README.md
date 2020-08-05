@@ -79,6 +79,8 @@ webpack.config.js to bundled.js and watch: true
     * with Responsive set device pixel ratio 2 (3 dots menu chose DPR)  -- for different jpg resolution
     * change Responsive to e.g. iPhoneX
 
+### Section8: Let's build!
+
 24. **Creating Reusable Blocks**  
   with iPhoneX emulation
    * _wrapper.css -- padding
@@ -89,6 +91,11 @@ webpack.config.js to bundled.js and watch: true
   design pattern for spacing -- page-section  
   wrapper for padding center  
 
-25. **Headline Block**
+25. **Headline Block**  
+  headline-- modifiers  
+  wrapper--medium modifier  
+  adjust atSmall atMedium -- page-section and headline  
+  .wrapper inside .wrapper has paddings 0  
 
+26. **Column Layout Block**  
   
