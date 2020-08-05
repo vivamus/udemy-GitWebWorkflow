@@ -57,7 +57,7 @@ webpack.config.js to bundled.js and watch: true
     on smartphone -- `192.168.1.111:3000` -- did not work for me? maybe because VPN?  
     now we may delete buindled.js, it exists in RAM as localhostL300/bundled.js  
 
-### *-------- Section 7: Mobile-first Essentials*     
+### *Section 7: Mobile-first Essentials*     
 
 21. **"Mobile-first"**  
   progressively enhance design for larger screen, no unneeded data  
@@ -81,7 +81,7 @@ webpack.config.js to bundled.js and watch: true
     * with Responsive set device pixel ratio 2 (3 dots menu chose DPR)  -- for different jpg resolution  
     * change Responsive to e.g. iPhoneX  
 
-### *-------- Section 8: Let's build!*     
+### *Section 8: Let's build!*     
 
 24. **Creating Reusable Blocks**  
   with iPhoneX emulation  
@@ -100,6 +100,8 @@ webpack.config.js to bundled.js and watch: true
   .wrapper inside .wrapper has paddings 0  
 
 26. **Column Layout Block**  
+  row__4 row__8
 
-### *------- Section 9: blah*  
+
+### *Section 9: blah*  
   
