@@ -105,8 +105,12 @@ webpack.config.js to bundled.js and watch: true
   better &::after content "", clear both, display table  
   `&--gutters > div` for children's padding --exceeds the total 100%  
   `box-sizing: border-box` to _global.css!  
-  last column protruding 65px: neg margin, overflow hidden
+  last column protruding 65px: neg margin, overflow hidden (i.e. gutter exists but not visible)  
+  row__medium-4/8 -- single column on iPhone  
 
+27. **Attention to detail I**  
+
+28. **Attention to detail II**  
 
 ### *Section 9: blah*  
   
