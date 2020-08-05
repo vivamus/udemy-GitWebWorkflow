@@ -102,7 +102,9 @@ webpack.config.js to bundled.js and watch: true
 26. **Column Layout Block**  
   row__4 row__8 float: left  
   trick -- empty div with clear:both  
-  better &::after content "", clear both, display table
+  better &::after content "", clear both, display table  
+  `&--gutters > div` for children's padding --exceeds the total 100%  
+  `box-sizing: border-box` to _global.css!  
 
 
 ### *Section 9: blah*  
