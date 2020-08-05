@@ -61,9 +61,9 @@ webpack.config.js to bundled.js and watch: true
   progressively enhance design for larger screen, no unneeded data  
   decrease horizontal widht of the browser -- font too large  
   start with css __title font-size 1.2 @media min-width 530px 4.8 (your clarity jumps small if width decreases)  
-  npm install postcss-mixins --save-dev  webpack require
-  base/_mixin.css @mixin atSmall
-  default is smallest then Small,Medium,Large
+  npm install postcss-mixins --save-dev  webpack require  
+  base/_mixin.css @mixin atSmall  
+  default is smallest then Small,Medium,Large  
 
 22. **Responsive Images**  
   2 reasons for different images: crop; filesize  
@@ -79,7 +79,7 @@ webpack.config.js to bundled.js and watch: true
     * with Responsive set device pixel ratio 2 (3 dots menu chose DPR)  -- for different jpg resolution
     * change Responsive to e.g. iPhoneX
 
-### Section8: Let's build!
+### Section 8: Let's build!   
 
 24. **Creating Reusable Blocks**  
   with iPhoneX emulation
