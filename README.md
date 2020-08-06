@@ -124,3 +124,8 @@ webpack.config.js to bundled.js and watch: true
 ### *Section 9: Git Timeout*  
   
 28. **Git branches**    
+  `git branch`  -- list of branches  
+  git reset filename -- unstage  
+  git branch count-to-ten; git branch  
+  git checkout count-to-ten  
+  
