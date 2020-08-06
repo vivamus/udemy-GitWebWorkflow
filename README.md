@@ -128,7 +128,7 @@ webpack.config.js to bundled.js and watch: true
   git reset filename -- unstage  
   git branch count-to-ten; git branch  
   git checkout count-to-ten; git add, commit  
-  git push origin count-to-fifteen  
+  git push origin count-to-fifteen  -- merge pull request on github (assigned to self)   
   git checkout master  
   git merge count-to-ten  
   if conflicts, manuall edit, do git add file, and then git merge --continue?  
