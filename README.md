@@ -132,4 +132,6 @@ webpack.config.js to bundled.js and watch: true
   git checkout master  
   git merge count-to-ten  
   if conflicts, manuall edit, do git add file, and then git merge --continue?  
-  created junk, pushing to origin  
+  created junk, pushing to origin  -- from github merge pull request and delete branch 
+  // delete branch locally  git branch -d localBranchName  
+  // delete branch remotely   git push origin --delete remoteBranchName 
