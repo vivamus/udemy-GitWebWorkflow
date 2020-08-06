@@ -109,6 +109,9 @@ webpack.config.js to bundled.js and watch: true
   row__medium-4/8 -- single column on iPhone  
 
 27. **Attention to detail I**  
+  marhin between 2 images -- wrapper-b-margin  
+  row__medium-4--larger  
+
 
 28. **Attention to detail II**  
 
