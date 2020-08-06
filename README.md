@@ -115,10 +115,12 @@ webpack.config.js to bundled.js and watch: true
   hi-dpi -- browser assumes whole browser width -- <source sizes=404px>
   `sizes="(min-width: 970px) 976px, 100vw"`  
 
-28. **Attention to detail II**  
+28. **Attention to detail II**  -- margins and line-height    
   right col, eliminate top margin headline--no-t-margin  
-  `generic-content-container`  `line-height: 1.65`  
+  `generic-content-container`  `line-height: 1.65`  no BEM -- pure p  
+  row__b-margin-until-medium    
 
 
-### *Section 9: blah*  
+### *Section 9: Git Timeout*  
   
+28. **Git branches**    
