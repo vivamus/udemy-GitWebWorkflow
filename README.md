@@ -124,7 +124,7 @@ webpack.config.js to bundled.js and watch: true
 
 ### *Section 9: Git Timeout*  
   
-28. **Git branches**    
+29. **Git branches**    
   `git branch`  -- list of branches  
   git reset filename -- unstage  
   git branch count-to-ten; git branch  
@@ -132,4 +132,11 @@ webpack.config.js to bundled.js and watch: true
   git push origin count-to-fifteen  -- merge pull request on github (assigned to self)   
   git checkout master  
   git merge count-to-ten  
-  if conflicts, manuall edit, do git add file, and then git merge --continue?  
+  if conflicts, manuall edit, do git add file, and then git merge --continue? 
+  git pull origin master -- since merge happened on remote machine
+  Finally, shortcut to create and switch to a new branch -- `git checkout -b our-features`  
+
+
+ ### * Section 10: Building "Our Features" Section*
+
+30. **sStyling our features I**    
