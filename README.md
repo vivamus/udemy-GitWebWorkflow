@@ -131,3 +131,4 @@ webpack.config.js to bundled.js and watch: true
   git push origin count-to-fifteen  
   git checkout master  
   git merge count-to-ten  
+  if conflicts, manuall edit, do git add file, and then git merge --continue?  
