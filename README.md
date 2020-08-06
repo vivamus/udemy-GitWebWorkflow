@@ -108,15 +108,17 @@ webpack.config.js to bundled.js and watch: true
   last column protruding 65px: neg margin, overflow hidden (i.e. gutter exists but not visible)  
   row__medium-4/8 -- single column on iPhone  
 
-27. **Attention to detail I**  
-  marhin between 2 images -- wrapper-b-margin  
+27. **Attention to detail I**  -- images and margins
+  margin between 2 images -- wrapper-b-margin  
   row__medium-4--larger  
   3 versions of our-start image -- <picture> srcset  
-  hidpi -- browser assumes whole browser width -- <source sizes=404px>
+  hi-dpi -- browser assumes whole browser width -- <source sizes=404px>
   `sizes="(min-width: 970px) 976px, 100vw"`  
 
-
 28. **Attention to detail II**  
+  right col, eliminate top margin headline--no-t-margin  
+  `generic-content-container`  `line-height: 1.65`  
+
 
 ### *Section 9: blah*  
   
