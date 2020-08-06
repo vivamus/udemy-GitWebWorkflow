@@ -111,6 +111,9 @@ webpack.config.js to bundled.js and watch: true
 27. **Attention to detail I**  
   marhin between 2 images -- wrapper-b-margin  
   row__medium-4--larger  
+  3 versions of our-start image -- <picture> srcset  
+  hidpi -- browser assumes whole browser width -- <source sizes=404px>
+  `sizes="(min-width: 970px) 976px, 100vw"`  
 
 
 28. **Attention to detail II**  
