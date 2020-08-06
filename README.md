@@ -7,6 +7,7 @@ git commit -m 'a b'
 git mv old new  
 git push origin master  
 git commit -a     #skip staging  
+rm foo, git restore foo  
 git config --global alias.last 'log -1 HEAD'  
 git config --global alias.ca 'commit -a'  
 git config --global alias.pom 'push origin master'  
