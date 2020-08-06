@@ -127,5 +127,5 @@ webpack.config.js to bundled.js and watch: true
   `git branch`  -- list of branches  
   git reset filename -- unstage  
   git branch count-to-ten; git branch  
-  git checkout count-to-ten  
-  
+  git checkout count-to-ten; git add, commit
+  git checkout master
