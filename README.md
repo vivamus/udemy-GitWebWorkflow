@@ -134,9 +134,9 @@ webpack.config.js to bundled.js and watch: true
   git merge count-to-ten  
   if conflicts, manuall edit, do git add file, and then git merge --continue? 
   git pull origin master -- since merge happened on remote machine
-  Finally, shortcut to create and switch to a new branch -- `git checkout -b our-features`  
-
+  Finally, shortcut to create and switch to a new branch -- `git checkout -b our-features` 
 
  ### * Section 10: Building "Our Features" Section*
 
-30. **sStyling our features I**    
+30. **Styling our features I**  
+  our features -- class section_title  
