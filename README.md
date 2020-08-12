@@ -136,7 +136,15 @@ webpack.config.js to bundled.js and watch: true
   git pull origin master -- since merge happened on remote machine
   Finally, shortcut to create and switch to a new branch -- `git checkout -b our-features`  
 
-
  ### * Section 10: Building "Our Features" Section*
 
-30. **sStyling our features I**    
+30. **Styling our features I**  
+  our features -- class section_title  
+  row__medium-r row--gutters-large `margin-right: -100; padding-right: 100`   
+  icon left to text: feature-item feature-item__icon, title  
+  again generic-content-container  feature-item spacing icon for small screens  
+
+30. **Styling our features II**  
+  small screens -- icons jump above, center  
+  `git checkout master` commit or stash!  
+  `git merge our-features --no-ff` no fast forward  
