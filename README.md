@@ -148,3 +148,11 @@ webpack.config.js to bundled.js and watch: true
   small screens -- icons jump above, center  
   `git checkout master` commit or stash!  
   `git merge our-features --no-ff` no fast forward  
+  8 files changed, 121 insertions(+), 20 deletions(-)  
+  `git push origin master` and take a look at github <> Code  
+  --no-ff means all accumulated checkins at once == mconsolidated ?  
+  added `base/_mydebug.css` with outlines
+
+ ### * Section 11: Building "Testemonial" Section*
+
+31. **StylingTestemonials I**  

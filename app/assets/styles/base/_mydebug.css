@@ -1,0 +1,28 @@
+
+img  {
+    outline: 2px solid magenta;
+    #background-color: red;
+}
+
+.row   {
+    outline: 1px solid red;
+    #background-color: yellow;
+}
+
+.section-title  {
+    outline: 2px dashed red;
+    #background-color: yellow;
+}
+
+
+.wrapper  {
+    outline: 2px dashed purple;
+    #background-color: yellow;
+}
+
+
+.feature-item  {
+    outline: 1px solid cyan;
+    #background-color: yellow;
+}
+
