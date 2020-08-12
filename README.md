@@ -142,4 +142,7 @@ webpack.config.js to bundled.js and watch: true
   our features -- class section_title  
   row__medium-r row--gutters-large `margin-right: -100; padding-right: 100`   
   icon left to text: feature-item feature-item__icon, title  
-  again generic-content-container  feature-item spacing icon for small screens   
+  again generic-content-container  feature-item spacing icon for small screens  
+
+30. **Styling our features II**  
+  small screens -- icons jump above  
