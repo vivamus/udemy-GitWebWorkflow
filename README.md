@@ -134,7 +134,7 @@ webpack.config.js to bundled.js and watch: true
   git merge count-to-ten  
   if conflicts, manuall edit, do git add file, and then git merge --continue? 
   git pull origin master -- since merge happened on remote machine
-  Finally, shortcut to create and switch to a new branch -- `git checkout -b our-features` 
+  Finally, shortcut to create and switch to a new branch -- `git checkout -b our-features`  
 
  ### * Section 10: Building "Our Features" Section*
 
@@ -145,4 +145,6 @@ webpack.config.js to bundled.js and watch: true
   again generic-content-container  feature-item spacing icon for small screens  
 
 30. **Styling our features II**  
-  small screens -- icons jump above  
+  small screens -- icons jump above, center  
+  `git checkout master` commit or stash!  
+  `git merge our-features --no-ff` no fast forward  
