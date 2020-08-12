@@ -141,4 +141,5 @@ webpack.config.js to bundled.js and watch: true
 30. **Styling our features I**  
   our features -- class section_title  
   row__medium-r row--gutters-large `margin-right: -100; padding-right: 100`   
-  icon left to text: feature-item feature-item__icon, title
+  icon left to text: feature-item feature-item__icon, title  
+  again generic-content-container  
