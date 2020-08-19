@@ -156,3 +156,4 @@ webpack.config.js to bundled.js and watch: true
  ### * Section 11: Building "Testemonial" Section*
 
 31. **StylingTestemonials I**  
+  `git config --global alias.lgo 'log --graph --oneline'`  
