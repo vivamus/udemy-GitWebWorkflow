@@ -4,7 +4,7 @@
     text-align: center;
 
     @mixin atSmall {
-            font-size: 3.75rem;
+        font-size: 3.75rem;
     }
 
     strong {
@@ -15,12 +15,12 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
 
-    @mixin atSmall {
-        margin-right: .5rem;
-        margin-left: 0;
-        margin-bottom: 0;
-        display: inline-block;
-    }
+        @mixin atSmall {
+            margin-right: .5rem;
+            margin-left: 0;
+            margin-bottom: 0;
+            display: inline-block;
+        }
+    }  
 }
