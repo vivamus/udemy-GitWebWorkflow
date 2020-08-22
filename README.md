@@ -157,4 +157,5 @@ webpack.config.js to bundled.js and watch: true
 
 31. **StylingTestemonials I**  
   `git config --global alias.lgo 'log --graph --oneline'`
-  page-section for vert space , `page-section--testimonials` for bg image      
+  page-section for vert space , `page-section--testimonials` for bg image    
+  fix my bug in _section--title.css mixin  
