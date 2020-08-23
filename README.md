@@ -155,10 +155,12 @@ webpack.config.js to bundled.js and watch: true
 
  ### * Section 11: Building "Testemonial" Section*
 
-31. **StylingTestemonials I**  
+31. **Styling Testemonials I**  
   `git config --global alias.lgo 'log --graph --oneline'`
   page-section for vert space , `page-section--testimonials` for bg image    
   fix my bug in _section--title.css mixin  
   row__medium-4  
   testimonial-photo -- to fond size of image right-click open image in a new tab -- circle  
-  position circle img up  
+  position circle img up, testimonials--title  
+
+31. **Styling Testemonials II**  
