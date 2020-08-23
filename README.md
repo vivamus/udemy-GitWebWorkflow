@@ -159,3 +159,5 @@ webpack.config.js to bundled.js and watch: true
   `git config --global alias.lgo 'log --graph --oneline'`
   page-section for vert space , `page-section--testimonials` for bg image    
   fix my bug in _section--title.css mixin  
+  row__medium-4  
+  
