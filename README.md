@@ -161,3 +161,4 @@ webpack.config.js to bundled.js and watch: true
   fix my bug in _section--title.css mixin  
   row__medium-4  
   testimonial-photo -- to fond size of image right-click open image in a new tab -- circle  
+  position circle img up  
